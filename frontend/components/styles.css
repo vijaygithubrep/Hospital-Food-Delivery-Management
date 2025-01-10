@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    padding: 20px;
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.dashboard-links a {
+    margin-top: 3vw;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dashboard-links a:hover {
+    background-color: #0056b3;
+}
+
+.patient-form,
+.diet-chart-form,
+.pantry-management,
+.delivery-management {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.patient-form h2,
+.diet-chart-form h2,
+.pantry-management h2,
+.delivery-management h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.patient-form input,
+.diet-chart-form input,
+.pantry-management input,
+.delivery-management input,
+.diet-chart-form textarea {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.patient-form button,
+.diet-chart-form button,
+.pantry-management button,
+.delivery-management button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.patient-form button:hover,
+.diet-chart-form button:hover,
+.pantry-management button:hover,
+.delivery-management button:hover {
+    background-color: #218838;
+}
+
+.pantry-management ul,
+.delivery-management ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pantry-management ul li,
+.delivery-management ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
