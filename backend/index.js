@@ -27,6 +27,10 @@ app.use('',Diet)
 app.use('', Pantry)
 app.use('', Patients)
 
+app.get('/', (req,res) => {
+  res.json("Hospital Food Delivery Management");
+})
+
 // Start Server
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
